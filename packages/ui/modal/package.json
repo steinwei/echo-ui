@@ -1,8 +1,19 @@
 {
-  "name": "@echo/vue-modal",
+  "name": "@echo-ui/button",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/echo-ui-button.umd.cjs",
+  "module": "./dist/echo-ui-button.js",
+  "exports": {
+    ".": {
+      "import": "./dist/echo-ui-button.js",
+      "require": "./dist/echo-ui-button.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
