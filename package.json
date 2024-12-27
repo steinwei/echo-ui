@@ -1,0 +1,19 @@
+{
+  "name": "@echo-ui/vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.5",
+    "vitepress": "^1.5.0",
+    "vue-tsc": "^2.2.0"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev packages/docs",
+    "docs:build": "vitepress build packages/docs",
+    "docs:preview": "vitepress preview packages/docs"
+  }
+}
